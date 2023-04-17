@@ -152,7 +152,7 @@ button.go-back-btn:hover{
     }
 
     button.go-back-btn{
-        margin-top: 350px;
+        text-align: center;
     }
 }
 
@@ -186,7 +186,11 @@ button.go-back-btn:hover{
     }
 
     button.go-back-btn{
-        margin-top: 350px;
+        text-align: center;
+    }
+
+    img.search-img{
+        /* margin-bottom: 20rem !important; */
     }
 
 }

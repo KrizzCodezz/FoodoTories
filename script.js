@@ -110,42 +110,42 @@ searchBtn.addEventListener("click", searchClick);
 
 function searchClick (e){
     e.preventDefault();
-    if((searchBox.value).toLowerCase()=="carbohydrate"){
+    if((searchBox.value.trim()).toLowerCase()=="carbohydrate"){
         container.classList.add("hide");
         container2.classList.remove("hide");
         goBackBtn.classList.remove("hide");
         foodClass.innerHTML = "Carbohydrate"
         foodClassInfo.innerHTML = "What are carbohydrates? Carbohydrates, or carbs, are sugar molecules. Along with proteins and fats, carbohydrates are one of three main nutrients found in foods and drinks. Your body breaks down carbohydrates into glucose. Glucose, or blood sugar, is the main source of energy for your body's cells, tissues, and organs.";
         document.querySelector(".search-img").src = "carbon.jpg"
-    } else if((searchBox.value).toLowerCase()=="protein"){
+    } else if((searchBox.value.trim()).toLowerCase()=="protein"){
         container.classList.add("hide")
         container2.classList.remove("hide")
         goBackBtn.classList.remove("hide");
         foodClass.innerHTML = "Protein";
         foodClassInfo.innerHTML = "Proteins are made up of building blocks called amino acids. There are about 20 different amino acids that link together in different combinations. Your body uses them to make new proteins, such as muscle and bone, and other compounds such as enzymes and hormones. It can also use them as an energy source.";
         document.querySelector(".search-img").src = "protein.jpg"
-    } else if((searchBox.value).toLowerCase()=="fats"){
+    } else if((searchBox.value.trim()).toLowerCase()=="fat"){
         container.classList.add("hide")
         container2.classList.remove("hide")
         goBackBtn.classList.remove("hide");
         foodClass.innerHTML = "Fats";
         foodClassInfo.innerHTML = "Fats are nutrients in food that the body uses to build cell membranes, nerve tissue (including the brain), and hormones. The body also uses fat as fuel. If fats eaten aren't burned as energy or used as building blocks, they're stored by the body in fat cells.";
         document.querySelector(".search-img").src = "fats.jpg"
-    } else if((searchBox.value).toLowerCase()=="vitamins"){
+    } else if((searchBox.value.trim()).toLowerCase()=="vitamin"){
         container.classList.add("hide")
         container2.classList.remove("hide")
         goBackBtn.classList.remove("hide");
         foodClass.innerHTML = "Vitamins";
         foodClassInfo.innerHTML = "Vitamins are substances that our bodies need to develop and function normally. They include vitamins A, C, D, E, and K, choline, and the B vitamins (thiamin, riboflavin, niacin, pantothenic acid, biotin, vitamin B6, vitamin B12, and folate/folic acid).";
         document.querySelector(".search-img").src = "vitamins.jpg"
-    } else if((searchBox.value).toLowerCase()=="mineral"){
+    } else if((searchBox.value.trim()).toLowerCase()=="mineral"){
         container.classList.add("hide")
         container2.classList.remove("hide")
         goBackBtn.classList.remove("hide");
         foodClass.innerHTML = "Mineral";
         foodClassInfo.innerHTML = "Minerals are those elements on the earth and in foods that our bodies need to develop and function normally. Those essential for health include calcium, phosphorus, potassium, sodium, chloride, magnesium, iron, zinc, iodine, chromium, copper, fluoride, molybdenum, manganese, and selenium.";
         document.querySelector(".search-img").src = "minerals.jpg"
-    } else if((searchBox.value).toLowerCase()=="water"){
+    } else if((searchBox.value.trim()).toLowerCase()=="water"){
         container.classList.add("hide")
         container2.classList.remove("hide")
         goBackBtn.classList.remove("hide");
